@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Fedex.Tracking\\Shiptoboxes.External.Fedex.Tracking.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\Shiptoboxes.Core.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\Shiptoboxes.Core.Configuration.csproj",
+        "projectName": "Shiptoboxes.Core.Configuration",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\Shiptoboxes.Core.Configuration.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\Shiptoboxes.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\Shiptoboxes.Core.csproj",
+        "projectName": "Shiptoboxes.Core",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\Shiptoboxes.Core.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\Shiptoboxes.Core.Configuration.csproj": {
+                "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core.Configuration\\Shiptoboxes.Core.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\Shiptoboxes.External.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\Shiptoboxes.External.Common.csproj",
+        "projectName": "Shiptoboxes.External.Common",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\Shiptoboxes.External.Common.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\Shiptoboxes.Core.csproj": {
+                "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\Core\\Shiptoboxes.Core\\Shiptoboxes.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "OAuth.DotNetCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Fedex.Tracking\\Shiptoboxes.External.Fedex.Tracking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Fedex.Tracking\\Shiptoboxes.External.Fedex.Tracking.csproj",
+        "projectName": "Shiptoboxes.External.Fedex.Tracking",
+        "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Fedex.Tracking\\Shiptoboxes.External.Fedex.Tracking.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Fedex.Tracking\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\Shiptoboxes.External.Common.csproj": {
+                "projectPath": "C:\\Users\\Hp\\source\\repos\\Shiptoboxes2\\src\\External\\Shiptoboxes.External.Common\\Shiptoboxes.External.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
